@@ -1,6 +1,6 @@
 exports.handler = async function(event, context) {
 
-  const allowedReferrer = "yourproject.netlify.app";
+  const allowedReferrer = "chic-salamander-331be0.netlify.app";
 
   const referer = event.headers.referer || "";
 
